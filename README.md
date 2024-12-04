@@ -33,7 +33,7 @@ A secure, private journaling web application with AI insights built using React 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mini-diary-webapp.git
+   git clone https://github.com/QuentinRomeroLauro/mini-diary-webapp.git
    cd mini-diary-webapp
    ```
 
