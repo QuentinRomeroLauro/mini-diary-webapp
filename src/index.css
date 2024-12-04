@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ProseMirror {
+  @apply min-h-[200px] text-gray-200 outline-none;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  @apply text-gray-500 float-left h-0 pointer-events-none;
+}
+
+/* Prose Overrides for Dark Theme */
+.prose {
+  @apply text-gray-200;
+}
+
+.prose strong {
+  @apply text-gray-200;
+}
+
+.prose em {
+  @apply text-gray-200;
+}
+
+.prose ul {
+  @apply text-gray-200;
+}
+
+.prose li {
+  @apply text-gray-200;
+}
